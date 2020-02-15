@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat May  5 15:06:28 2018
+# Process ID: 9188
+# Current directory: E:/Users/Victor/Termostat/Termostat.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: E:/Users/Victor/Termostat/Termostat.runs/synth_1/main.vds
+# Journal file: E:/Users/Victor/Termostat/Termostat.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace

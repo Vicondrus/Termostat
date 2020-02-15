@@ -1,0 +1,245 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Sat May  5 15:11:40 2018
+| Host         : Victor-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a35ti
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   182 |
+| Unused register locations in slices containing registers |   927 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              27 |            7 |
+| No           | No                    | Yes                    |             249 |           95 |
+| No           | Yes                   | No                     |             420 |          195 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              41 |           37 |
+| Yes          | Yes                   | No                     |              80 |           20 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------------------------------+-------------------------------------------------------------+------------------------------------------------------+------------------+----------------+
+|                        Clock Signal                       |                        Enable Signal                        |                   Set/Reset Signal                   | Slice Load Count | Bel Load Count |
++-----------------------------------------------------------+-------------------------------------------------------------+------------------------------------------------------+------------------+----------------+
+|  instTemperature/instRAM_Tmax/temp_reg[1]_P               |                                                             | instTemperature/instRAM_Tmax/temp_reg[1]_C           |                1 |              1 |
+|  instTemperature/instRAM_Tmax/temp_reg[2]_P               |                                                             | instTemperature/instRAM_Tmax/temp_reg[2]_C_0         |                1 |              1 |
+|  instTemperature/instRAM_Tmax/temp_reg[3]_P               |                                                             | instTemperature/instRAM_Tmax/temp_reg[3]_C           |                1 |              1 |
+|  instTemperature/instRAM_Tmax/temp_reg[4]_P               |                                                             | instTemperature/instRAM_Tmax/temp_reg[4]_C           |                1 |              1 |
+|  instTemperature/instRAM_Tmax/temp_reg[5]_P               |                                                             | instTemperature/instRAM_Tmax/temp_reg[5]_C           |                1 |              1 |
+|  instTemperature/instRAM_Tmin/temp_reg[2]_P               |                                                             | instTemperature/instRAM_Tmin/temp_reg[2]_C           |                1 |              1 |
+|  instTemperature/instRAM_Tmin/temp_reg[0]_P               |                                                             | instTemperature/instRAM_Tmin/temp_reg[0]_C           |                1 |              1 |
+|  instTemperature/instRAM_Tmin/temp_reg[1]_P               |                                                             | instTemperature/instRAM_Tmin/temp_reg[1]_C           |                1 |              1 |
+|  instTemperature/instRAM_Tmin/temp_reg[3]_P_0             |                                                             | instTemperature/instRAM_Tmin/temp_reg[3]_C           |                1 |              1 |
+|  instTemperature/instRAM_Tmin/temp_reg[4]_P               |                                                             | instTemperature/instRAM_Tmin/temp_reg[4]_C           |                1 |              1 |
+|  instTemperature/instRAM_Tmin/temp_reg[5]_P               |                                                             | instTemperature/instRAM_Tmin/temp_reg[5]_C           |                1 |              1 |
+|  instTemperature/instRAM_Tmax/temp_reg[0]_P_0             |                                                             | instTemperature/instRAM_Tmax/temp_reg[0]_C           |                1 |              1 |
+|  instClock/instSetMinutes/temp_reg[1]_P_0                 |                                                             | instClock/instSetMinutes/temp_reg[1]_C_0             |                1 |              1 |
+|  instClock/instSetMinutes/temp_reg[2]_P_0                 |                                                             | instClock/instSetMinutes/temp_reg[2]_C_0             |                1 |              1 |
+|  instClock/instSetMinutes/temp_reg[3]_P_0                 |                                                             | instClock/instSetMinutes/temp_reg[3]_C_0             |                1 |              1 |
+|  instClock/instSetMinutes/temp_reg[4]_P_0                 |                                                             | instClock/instSetMinutes/temp_reg[4]_C_0             |                1 |              1 |
+|  instClock/instSetMinutes/temp_reg[5]_P_0                 |                                                             | instClock/instSetMinutes/temp_reg[5]_C_0             |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         |                                                             | instClock/instHours/temp_reg[0]_C_36                 |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         |                                                             | instClock/instHours/temp_reg[1]_C_0                  |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         |                                                             | instClock/instHours/temp_reg[2]_C_0                  |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         |                                                             | instClock/instHours/temp_reg[3]_C_0                  |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         |                                                             | instClock/instHours/temp_reg[4]_C_0                  |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         |                                                             | instClock/instHours/temp_reg[5]_C_0                  |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         | instClock/instDebounce/temp0_0                              | instClock/instHours/temp_reg[0]_P_32                 |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         | instClock/instDebounce/temp0_0                              | instClock/instHours/temp_reg[1]_P_0                  |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         | instClock/instDebounce/temp0_0                              | instClock/instHours/temp_reg[2]_P_0                  |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         | instClock/instDebounce/temp0_0                              | instClock/instHours/temp_reg[3]_P_1                  |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         | instClock/instDebounce/temp0_0                              | instClock/instHours/temp_reg[4]_P_1                  |                1 |              1 |
+|  instClock/instSetHours/instDivider/temp_reg[5]_P         | instClock/instDebounce/temp0_0                              | instClock/instHours/temp_reg[5]_P_2                  |                1 |              1 |
+|  instClock/instSetHours/temp_reg[0]_P_2                   |                                                             | instClock/instSetHours/temp_reg[0]_C_0               |                1 |              1 |
+|  instClock/instSetHours/temp_reg[1]_P_0                   |                                                             | instClock/instSetHours/temp_reg[1]_C_0               |                1 |              1 |
+|  instClock/instSetHours/temp_reg[2]_P_0                   |                                                             | instClock/instSetHours/temp_reg[2]_C_0               |                1 |              1 |
+|  instClock/instSetHours/temp_reg[4]_P_0                   |                                                             | instClock/instSetHours/temp_reg[4]_C_0               |                1 |              1 |
+|  instClock/instSetHours/temp_reg[5]_P_0                   |                                                             | instClock/instSetHours/temp_reg[5]_C_0               |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       | instClock/instDebounce/temp0                                | instClock/instMinutes/temp_reg[2]_P_0                |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       | instClock/instDebounce/temp0                                | instClock/instMinutes/temp_reg[3]_P_5                |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       | instClock/instDebounce/temp0                                | instClock/instMinutes/temp_reg[4]_P_1                |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       | instClock/instDebounce/temp0                                | instClock/instMinutes/temp_reg[5]_P_0                |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmax/temp_reg[2]_C_0         |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmax/temp_reg[3]_C           |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmax/temp_reg[4]_C           |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmax/temp_reg[5]_C           |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmax/temp_reg[0]_C           |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmax/temp_reg[1]_C           |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P | instTemperature/instCounterMax/temp0                        | instTemperature/instRAM_Tmax/temp_reg[1]_P           |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P | instTemperature/instCounterMax/temp0                        | instTemperature/instRAM_Tmax/temp_reg[2]_P           |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P | instTemperature/instCounterMax/temp0                        | instTemperature/instRAM_Tmax/temp_reg[3]_P           |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P | instTemperature/instCounterMax/temp0                        | instTemperature/instRAM_Tmax/temp_reg[5]_P           |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P | instTemperature/instCounterMax/temp0                        | instTemperature/instRAM_Tmax/temp_reg[0]_P_0         |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmin/temp_reg[1]_C           |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmin/temp_reg[4]_C           |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmin/temp_reg[3]_C           |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmin/temp_reg[0]_C           |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmin/temp_reg[2]_C           |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P |                                                             | instTemperature/instRAM_Tmin/temp_reg[5]_C           |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P | instTemperature/instCounterMin/temp0                        | instTemperature/instRAM_Tmin/temp_reg[2]_P           |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P | instTemperature/instCounterMin/temp0                        | instTemperature/instRAM_Tmin/temp_reg[0]_P           |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P | instTemperature/instCounterMin/temp0                        | instTemperature/instRAM_Tmin/temp_reg[1]_P           |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               |                                                             |                                                      |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               |                                                             | instClock/instSetMinutes/temp_reg[0]_C_0             |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               |                                                             | instClock/instSetMinutes/temp_reg[1]_C_0             |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               |                                                             | instClock/instSetMinutes/temp_reg[2]_C_0             |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               |                                                             | instClock/instSetMinutes/temp_reg[3]_C_0             |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               |                                                             | instClock/instSetMinutes/temp_reg[4]_C_0             |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               |                                                             | instClock/instSetMinutes/temp_reg[5]_C_0             |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               | instClock/instMinutes/temp0                                 | instClock/instSetMinutes/temp_reg[1]_P_0             |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               | instClock/instMinutes/temp0                                 | instClock/instSetMinutes/temp_reg[2]_P_0             |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               | instClock/instMinutes/temp0                                 | instClock/instSetMinutes/temp_reg[3]_P_0             |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               | instClock/instMinutes/temp0                                 | instClock/instSetMinutes/temp_reg[4]_P_0             |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               | instClock/instMinutes/temp0                                 | instClock/instSetMinutes/temp_reg[5]_P_0             |                1 |              1 |
+|  instClock/instMinutes/instDivider/temporal               | instClock/instMinutes/temp0                                 | instClock/instSetMinutes/temp_reg[0]_P_1             |                1 |              1 |
+|  instClock/instSetHours/temp_reg[3]_P_0                   |                                                             | instClock/instSetHours/temp_reg[3]_C_0               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            |                                                             | instClock/instSetHours/temp_reg[0]_C_0               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            |                                                             | instClock/instSetHours/temp_reg[1]_C_0               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            |                                                             | instClock/instSetHours/temp_reg[2]_C_0               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            |                                                             | instClock/instSetHours/temp_reg[3]_C_0               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            |                                                             | instClock/instSetHours/temp_reg[4]_C_0               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            |                                                             | instClock/instSetHours/temp_reg[5]_C_0               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            | instClock/instHours/temp0                                   | instClock/instSetHours/temp_reg[0]_P_2               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            | instClock/instHours/temp0                                   | instClock/instSetHours/temp_reg[1]_P_0               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            | instClock/instHours/temp0                                   | instClock/instSetHours/temp_reg[2]_P_0               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            | instClock/instHours/temp0                                   | instClock/instSetHours/temp_reg[4]_P_0               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            | instClock/instHours/temp0                                   | instClock/instSetHours/temp_reg[5]_P_0               |                1 |              1 |
+|  instClock/instHours/instDivider/temp_reg[5]_P            | instClock/instHours/temp0                                   | instClock/instSetHours/temp_reg[3]_P_0               |                1 |              1 |
+|  instClock/instHours/temp_reg[0]_P_32                     |                                                             | instClock/instHours/temp_reg[0]_C_36                 |                1 |              1 |
+|  instClock/instHours/temp_reg[1]_P_0                      |                                                             | instClock/instHours/temp_reg[1]_C_0                  |                1 |              1 |
+|  instClock/instHours/temp_reg[2]_P_0                      |                                                             | instClock/instHours/temp_reg[2]_C_0                  |                1 |              1 |
+|  instClock/instHours/temp_reg[3]_P_1                      |                                                             | instClock/instHours/temp_reg[3]_C_0                  |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P | instTemperature/instCounterMin/temp0                        | instTemperature/instRAM_Tmin/temp_reg[3]_P_0         |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P | instTemperature/instCounterMin/temp0                        | instTemperature/instRAM_Tmin/temp_reg[4]_P           |                1 |              1 |
+|  instTemperature/instCounterMin/instDivider/temp_reg[5]_P | instTemperature/instCounterMin/temp0                        | instTemperature/instRAM_Tmin/temp_reg[5]_P           |                1 |              1 |
+|  instTemperature/instCounterMax/instDivider/temp_reg[5]_P | instTemperature/instCounterMax/temp0                        | instTemperature/instRAM_Tmax/temp_reg[4]_P           |                1 |              1 |
+|  instClock/instSetMinutes/temp_reg[0]_P_1                 |                                                             | instClock/instSetMinutes/temp_reg[0]_C_0             |                1 |              1 |
+|  instClock/instHours/temp_reg[4]_P_1                      |                                                             | instClock/instHours/temp_reg[4]_C_0                  |                1 |              1 |
+|  instClock/instHours/temp_reg[5]_P_2                      |                                                             | instClock/instHours/temp_reg[5]_C_0                  |                1 |              1 |
+|  instClock/instMinutes/temp_reg[0]_P_0                    |                                                             | instClock/instMinutes/temp_reg[0]_C_0                |                1 |              1 |
+|  instClock/instMinutes/temp_reg[1]_P_0                    |                                                             | instClock/instMinutes/temp_reg[1]_C_0                |                1 |              1 |
+|  instClock/instMinutes/temp_reg[2]_P_0                    |                                                             | instClock/instMinutes/temp_reg[2]_C_0                |                1 |              1 |
+|  instClock/instMinutes/temp_reg[3]_P_5                    |                                                             | instClock/instMinutes/temp_reg[3]_C_0                |                1 |              1 |
+|  instClock/instMinutes/temp_reg[4]_P_1                    |                                                             | instClock/instMinutes/temp_reg[4]_C_0                |                1 |              1 |
+|  instClock/instMinutes/temp_reg[5]_P_0                    |                                                             | instClock/instMinutes/temp_reg[5]_C_0                |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       |                                                             | instClock/instMinutes/temp_reg[0]_C_0                |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       |                                                             | instClock/instMinutes/temp_reg[1]_C_0                |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       |                                                             | instClock/instMinutes/temp_reg[2]_C_0                |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       |                                                             | instClock/instMinutes/temp_reg[3]_C_0                |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       |                                                             | instClock/instMinutes/temp_reg[4]_C_0                |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       |                                                             | instClock/instMinutes/temp_reg[5]_C_0                |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       | instClock/instDebounce/temp0                                | instClock/instMinutes/temp_reg[0]_P_0                |                1 |              1 |
+|  instClock/instSetMinutes/instDivider/temp_reg[5]_P       | instClock/instDebounce/temp0                                | instClock/instMinutes/temp_reg[1]_P_0                |                1 |              1 |
+|  instTemperature/instHourCounter/instDivider/temporal     | instTemperature/instHourCounter/temp0                       | instTemperature/instHourCounter/instDivider/AR[0]    |                1 |              5 |
+|  instClock/instHours/temp_reg[0]_C_19[0]                  |                                                             | reset_IBUF                                           |                4 |              6 |
+|  instClock/instHours/temp_reg[0]_C_26[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_27[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_28[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_29[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_3[0]                   |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_30[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_31[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_34[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_35[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_7[0]                   |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_8[0]                   |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_9[0]                   |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_0[0]                   |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_1[0]                   |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_10[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_20[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_24[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_27[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_29[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_3[0]                   |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_30[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_31[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/E[0]                                 |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_10[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_13[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_7[0]                   |                                                             | reset_IBUF                                           |                6 |              6 |
+|  instClock/instHours/temp_reg[0]_C_17[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_18[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_20[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_21[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_22[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_23[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_24[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_25[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_32[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_33[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_6[0]                   |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_11[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_5[0]                   |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_12[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_14[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_15[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_16[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_17[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_18[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_19[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_2[0]                   |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_21[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_28[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_22[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_23[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_25[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_26[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_4[0]                   |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instSimulator/divider/CLK                                |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_11[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_14[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_13[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_8[0]                   |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_P_9[0]                   |                                                             | reset_IBUF                                           |                2 |              6 |
+|  instClock/instHours/temp_reg[0]_C_15[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_16[0]                  |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_P_6[0]                   |                                                             | reset_IBUF                                           |                3 |              6 |
+|  instClock/instHours/temp_reg[0]_C_12[0]                  |                                                             | reset_IBUF                                           |                2 |              6 |
+|  clk_IBUF_BUFG                                            | instClock/instDebounce/sel                                  | instTemperature/instDebounceBTN/counter_out_reg[0]_0 |                5 |             20 |
+|  clk_IBUF_BUFG                                            | instTemperature/instDebounceBTN/sel                         | instTemperature/instDebounceBTN/counter_out_reg[0]_0 |                5 |             20 |
+|  clk_IBUF_BUFG                                            | instTemperature/instDebounceMINUS/counter_out[0]_i_2__1_n_0 | instTemperature/instDebounceMINUS/counter_set        |                5 |             20 |
+|  clk_IBUF_BUFG                                            | instTemperature/instDebouncePLUS/counter_out[0]_i_2__0_n_0  | instTemperature/instDebouncePLUS/counter_set         |                5 |             20 |
+|  clk_IBUF_BUFG                                            |                                                             | instTemperature/instHourCounter/instDivider/AR[0]    |                6 |             25 |
+|  clk_IBUF_BUFG                                            |                                                             |                                                      |                6 |             26 |
+|  clk_IBUF_BUFG                                            |                                                             | reset_IBUF                                           |               50 |            182 |
++-----------------------------------------------------------+-------------------------------------------------------------+------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                   109 |
+| 5      |                     1 |
+| 6      |                    65 |
+| 16+    |                     7 |
++--------+-----------------------+
+
+
